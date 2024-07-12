@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container flex flex-col mx-auto bg-white">
+    <div className="container flex flex-col mx-auto bg-white md:hidden">
       <header className="w-full bg-white border-b border-b-neutral-200 fixed z-40">
         <div className="flex justify-between items-center px-4 py-4">
           <img alt="Logo" src={img1} className="inline w-[150px] mb-1" />
@@ -58,7 +58,7 @@ const Navbar = () => {
         }`}
         id="sidenav-main"
       >
-        <div className="flex justify-between items-center px-8 h-[96px] hidden md:flex">
+        <div className="flex justify-between items-center px-8 h-[96px] md:flex">
           <a
             href="https://www.loopple.com"
             className="transition-colors duration-200 ease-in-out"
