@@ -26,7 +26,7 @@ const Login = () => {
     if (username === "mayur" && password === "mayur") {
       // Simulated successful login
       dispatch(login());
-      navigate("/home");
+      navigate("");
     } else {
       setError("Invalid username or password");
     }
